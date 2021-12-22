@@ -11,6 +11,7 @@ import Testimonials from "./components/Testimonials";
 function App() {
   return (
     <main>
+      <h1>Jackson Barker</h1>
       <Navbar />
       <About />
       <Projects />
@@ -18,7 +19,7 @@ function App() {
       <Testimonials />
       <Contact />
     </main>
-  )
+  );
 }
 
 export default App;
