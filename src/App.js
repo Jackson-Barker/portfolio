@@ -11,7 +11,6 @@ import Testimonials from "./components/Testimonials";
 function App() {
   return (
     <main className="text-gray-400 bg-gray-900 body-font">
-      <h1>Jackson Barker</h1>
       <Navbar />
       <About />
       <Projects />

@@ -1,49 +1,32 @@
 export default function Navbar() {
-    return (
-
-            <div class="lg:flex lg:items-center lg:justify-between">
-  <div class="flex-1 min-w-0">
-    <h2 class="text-2xl font-bold leading-7 text-gray-900 sm:text-3xl sm:truncate">
-      Back End Developer
-    </h2>
-    <div class="mt-1 flex flex-col sm:flex-row sm:flex-wrap sm:mt-0 sm:space-x-6">
-    </div>
-  </div>
-  <div class="mt-5 flex lg:mt-0 lg:ml-4">
-    <span class="hidden sm:block">
-      <button type="button" class="inline-flex items-center px-4 py-2 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-        About
-      </button>
-    </span>
-
-    <span class="hidden sm:block ml-3">
-      <button type="button" class="inline-flex items-center px-4 py-2 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-        Contact
-      </button>
-    </span>
-
-    <span class="hidden sm:block ml-3">
-      <button type="button" class="inline-flex items-center px-4 py-2 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-        Projects
-      </button>
-    </span>
-
-    <span class="hidden sm:block ml-3">
-      <button type="button" class="inline-flex items-center px-4 py-2 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-        Skills
-      </button>
-    </span>
-
-    <span class="hidden sm:block ml-3">
-      <button type="button" class="inline-flex items-center px-4 py-2 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-        Testimonials
-      </button>
-    </span>
-
-  
-
-  </div>
-</div>
-
-    )
+  return (
+    <header className="bg-gray-800 md:sticky top-0 z-10">
+      <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+        <div className="title-font font-medium text-white mb-4 md:mb-0">
+          <a href="#about" className="ml-3 text-xl">
+            Jackson Barker
+          </a>
+        </div>
+        <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
+          <a href="#projects" className="mr-5 hover:text-white">
+            My Work
+          </a>
+          <a href="skills" className="mr-5 hover:text-white">
+            My skills
+          </a>
+          <a href="#testimonials" className="mr-5 hover:text-white">
+            My Work
+          </a>
+        </nav>
+        <a
+          href="#contact"
+          className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0"
+        >
+          Contact Me
+        </a>
+      </div>
+    </header>
+  );
 }
+
+
