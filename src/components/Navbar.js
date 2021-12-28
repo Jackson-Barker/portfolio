@@ -11,11 +11,8 @@ export default function Navbar() {
           <a href="#projects" className="mr-5 hover:text-white">
             My Work
           </a>
-          <a href="skills" className="mr-5 hover:text-white">
+          <a href="#skills" className="mr-5 hover:text-white">
             My skills
-          </a>
-          <a href="#testimonials" className="mr-5 hover:text-white">
-            My Work
           </a>
         </nav>
         <a
@@ -28,5 +25,3 @@ export default function Navbar() {
     </header>
   );
 }
-
-
