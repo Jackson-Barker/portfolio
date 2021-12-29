@@ -1,3 +1,5 @@
+import Resume from "../images/Barker Resume 11-30.pdf";
+
 export default function Navbar() {
   return (
     <header className="bg-gray-800 md:sticky top-0 z-10">
@@ -13,6 +15,9 @@ export default function Navbar() {
           </a>
           <a href="#skills" className="mr-5 hover:text-white">
             My skills
+          </a>
+          <a href={Resume} target="_blank">
+            My Resume
           </a>
         </nav>
         <a
