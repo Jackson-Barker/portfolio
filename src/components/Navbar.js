@@ -1,4 +1,4 @@
-import Resume from "../images/Barker Resume 11-30.pdf";
+import Resume from "../images/Jackson Barker Resume 3-17.pdf";
 
 export default function Navbar() {
   return (
